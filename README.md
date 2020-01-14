@@ -22,28 +22,28 @@
 
 #### Linux 命令
 
-> 学习 Linux 的第一步：当然是从 [Linux 命令](docs/linux/cli/) 入手了。
+> 学习 Linux 的第一步：当然是从 [Linux 命令](cli/) 入手了。
 
-* [查看 Linux 命令帮助信息](docs/linux/cli/cha-kan-linux-ming-ling-bang-zhu-xin-xi.md) - 关键词：`help`, `whatis`, `info`, `which`, `whereis`, `man`
-* [Linux 文件目录管理](docs/linux/cli/linux-wen-jian-mu-lu-guan-li.md) - 关键词：`cd`, `ls`, `pwd`, `mkdir`, `rmdir`, `tree`, `touch`, `ln`, `rename`, `stat`, `file`, `chmod`, `chown`, `locate`, `find`, `cp`, `mv`, `rm`
-* [Linux 文件内容查看命令](docs/linux/cli/linux-wen-jian-nei-rong-cha-kan-bian-ji.md) - 关键词：`cat`, `head`, `tail`, `more`, `less`, `sed`, `vi`, `grep`
-* [Linux 文件压缩和解压](docs/linux/cli/linux-wen-jian-ya-suo-he-jie-ya.md) - 关键词：`tar`, `gzip`, `zip`, `unzip`
-* [Linux 用户管理](docs/linux/cli/linux-yong-hu-guan-li.md) - 关键词：`groupadd`, `groupdel`, `groupmod`, `useradd`, `userdel`, `usermod`, `passwd`, `su`, `sudo`
-* [Linux 系统管理](docs/linux/cli/linux-xi-tong-guan-li.md) - 关键词：`reboot`, `exit`, `shutdown`, `date`, `mount`, `umount`, `ps`, `kill`, `systemctl`, `service`, `crontab`
-* [Linux 网络管理](docs/linux/cli/linux-wang-luo-guan-li.md) - 关键词：关键词：`curl`, `wget`, `telnet`, `ip`, `hostname`, `ifconfig`, `route`, `ssh`, `ssh-keygen`, `firewalld`, `iptables`, `host`, `nslookup`, `nc`/`netcat`, `ping`, `traceroute`, `netstat`
-* [Linux 硬件管理](docs/linux/cli/linux-ying-jian-guan-li.md) - 关键词：`df`, `du`, `top`, `free`, `iotop`
-* [Linux 软件管理](docs/linux/cli/linux-ying-jian-guan-li.md) - 关键词：`rpm`, `yum`, `apt-get`
+* [查看 Linux 命令帮助信息](cli/cha-kan-linux-ming-ling-bang-zhu-xin-xi.md) - 关键词：`help`, `whatis`, `info`, `which`, `whereis`, `man`
+* [Linux 文件目录管理](cli/linux-wen-jian-mu-lu-guan-li.md) - 关键词：`cd`, `ls`, `pwd`, `mkdir`, `rmdir`, `tree`, `touch`, `ln`, `rename`, `stat`, `file`, `chmod`, `chown`, `locate`, `find`, `cp`, `mv`, `rm`
+* [Linux 文件内容查看命令](cli/linux-wen-jian-nei-rong-cha-kan-bian-ji.md) - 关键词：`cat`, `head`, `tail`, `more`, `less`, `sed`, `vi`, `grep`
+* [Linux 文件压缩和解压](cli/linux-wen-jian-ya-suo-he-jie-ya.md) - 关键词：`tar`, `gzip`, `zip`, `unzip`
+* [Linux 用户管理](cli/linux-yong-hu-guan-li.md) - 关键词：`groupadd`, `groupdel`, `groupmod`, `useradd`, `userdel`, `usermod`, `passwd`, `su`, `sudo`
+* [Linux 系统管理](cli/linux-xi-tong-guan-li.md) - 关键词：`reboot`, `exit`, `shutdown`, `date`, `mount`, `umount`, `ps`, `kill`, `systemctl`, `service`, `crontab`
+* [Linux 网络管理](cli/linux-wang-luo-guan-li.md) - 关键词：关键词：`curl`, `wget`, `telnet`, `ip`, `hostname`, `ifconfig`, `route`, `ssh`, `ssh-keygen`, `firewalld`, `iptables`, `host`, `nslookup`, `nc`/`netcat`, `ping`, `traceroute`, `netstat`
+* [Linux 硬件管理](cli/linux-ying-jian-guan-li.md) - 关键词：`df`, `du`, `top`, `free`, `iotop`
+* [Linux 软件管理](cli/linux-ying-jian-guan-li.md) - 关键词：`rpm`, `yum`, `apt-get`
 
 #### Linux 系统运维
 
 > Linux 系统的常见运维工作。
 
-* [linux 典型运维应用](docs/linux/ops/linux-dian-xing-yun-wei-ying-yong.md) - 关键词：域名解析、防火墙、网卡、NTP、crontab
-* [Samba 应用](docs/linux/ops/samba.md)
-* [Systemd 应用](docs/linux/ops/systemd.md)
-* [Vim 应用](docs/linux/ops/vim.md)
-* [Iptables 应用](docs/linux/ops/iptables.md)
-* [oh-my-zsh 应用](docs/linux/ops/zsh.md)
+* [linux 典型运维应用](linux-dian-xing-yun-wei-ying-yong.md) - 关键词：域名解析、防火墙、网卡、NTP、crontab
+* [Samba 应用](samba.md)
+* [Systemd 应用](systemd.md)
+* [Vim 应用](vim.md)
+* [Iptables 应用](iptables.md)
+* [oh-my-zsh 应用](zsh.md)
 
 #### 软件运维
 
@@ -52,35 +52,35 @@
 > 配套安装脚本：🐚 [软件运维配置脚本集合](https://github.com/dunwu/linux-tutorial/tree/master/codes/linux/soft)
 
 * 开发环境
-  * [JDK 安装](docs/linux/soft/jdk-install.md)
-  * [Maven 安装](docs/linux/soft/maven-install.md)
-  * [Nodejs 安装](docs/linux/soft/nodejs-install.md)
+  * [JDK 安装](soft/jdk-install.md)
+  * [Maven 安装](soft/maven-install.md)
+  * [Nodejs 安装](soft/nodejs-install.md)
 * 开发工具
-  * [Nexus 运维](docs/linux/soft/nexus-ops.md)
-  * [Gitlab 运维](docs/linux/soft/kafka-install.md)
-  * [Jenkins 运维](docs/linux/soft/jenkins.md)
-  * [Svn 运维](docs/linux/soft/svn-ops.md)
-  * [YApi 运维](docs/linux/soft/yapi-ops.md)
+  * [Nexus 运维](soft/nexus-ops.md)
+  * [Gitlab 运维](soft/kafka-install.md)
+  * [Jenkins 运维](soft/jenkins.md)
+  * [Svn 运维](soft/svn-ops.md)
+  * [YApi 运维](soft/yapi-ops.md)
 * 中间件服务
-  * [Elastic 运维](docs/linux/soft/elastic/)
-  * [Kafka 运维](docs/linux/soft/kafka-install.md)
-  * [RocketMQ 运维](docs/linux/soft/rocketmq-install.md)
+  * [Elastic 运维](soft/elastic/)
+  * [Kafka 运维](soft/kafka-install.md)
+  * [RocketMQ 运维](soft/rocketmq-install.md)
   * [Zookeeper 运维](https://github.com/dunwu/javaweb/blob/master/docs/technology/monitor/zookeeper-ops.md)
-  * [Nacos 运维](docs/linux/soft/nacos-install.md)
+  * [Nacos 运维](soft/nacos-install.md)
 * 服务器
   * [Nginx 教程 📚](https://github.com/dunwu/nginx-tutorial)
-  * [Tomcat 运维](docs/linux/soft/tomcat-install.md)
+  * [Tomcat 运维](soft/tomcat-install.md)
 * [数据库 📚](https://github.com/dunwu/db-tutorial)
   * [Mysql 运维](https://github.com/dunwu/db-tutorial/blob/master/docs/sql/mysql/mysql-ops.md)
   * [Redis 运维](https://github.com/dunwu/db-tutorial/blob/master/docs/nosql/redis/redis-ops.md)
 
 #### 扩展
 
-* [Docker 教程](docs/docker/)
-  * [Docker 快速入门](docs/docker/docker-quickstart.md)
-  * [Dockerfile 最佳实践](docs/docker/docker-dockerfile.md)
-  * [Docker Cheat Sheet](docs/docker/docker-cheat-sheet.md)
-  * [Kubernetes 应用指南](docs/docker/kubernetes.md)
+* [Docker 教程](docker/)
+  * [Docker 快速入门](docker/docker-quickstart.md)
+  * [Dockerfile 最佳实践](docker/docker-dockerfile.md)
+  * [Docker Cheat Sheet](docker/docker-cheat-sheet.md)
+  * [Kubernetes 应用指南](docker/kubernetes.md)
 * [一篇文章让你彻底掌握 Python](https://github.com/dunwu/blog/blob/master/source/_posts/coding/python.md)
 * [一篇文章让你彻底掌握 Shell](https://github.com/dunwu/blog/blob/master/source/_posts/coding/shell.md)
 * [Git 从入门到精通](https://github.com/dunwu/blog/blob/master/source/_posts/tools/git.md)
